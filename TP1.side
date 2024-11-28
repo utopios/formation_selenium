@@ -106,17 +106,10 @@
       "targets": [],
       "value": "currentLocation"
     }, {
-      "id": "f6912f42-a046-4b69-8072-ffb1225e991f",
-      "comment": "",
-      "command": "echo",
-      "target": "${currentLocation}",
-      "targets": [],
-      "value": ""
-    }, {
       "id": "e54638aa-86b0-444f-b7b5-e7fe71a8f6ab",
       "comment": "",
       "command": "assert",
-      "target": "${currentLocation}",
+      "target": "currentLocation",
       "targets": [],
       "value": "https://www.saucedemo.com/inventory.html"
     }, {
@@ -257,6 +250,13 @@
         ["xpath=//span[contains(.,'1')]", "xpath:innerText"]
       ],
       "value": "1"
+    }, {
+      "id": "ca50a48f-215a-4a0c-84ae-d817ef8b6d76",
+      "comment": "",
+      "command": "close",
+      "target": "",
+      "targets": [],
+      "value": ""
     }]
   }],
   "suites": [{
