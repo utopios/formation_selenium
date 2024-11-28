@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>filter_et_ajout_panier</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c264bd5b-eb7a-4f61-a7ff-5d4ab49be5c9</testCaseGuid>
+</TestCaseEntity>
