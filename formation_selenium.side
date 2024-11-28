@@ -361,7 +361,7 @@
     "persistSession": false,
     "parallel": false,
     "timeout": 300,
-    "tests": ["60262f29-d8c9-4e92-8956-3111c85d0f77"]
+    "tests": ["60262f29-d8c9-4e92-8956-3111c85d0f77", "81557097-2d8b-4152-8579-edef730f4066"]
   }],
   "urls": ["https://automationexercise.com/"],
   "plugins": []
