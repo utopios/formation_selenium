@@ -13,7 +13,7 @@ public abstract class BaseTest {
 
     // TODO: Externalise config data
     protected WebDriver driver;
-    private Browsers browser = Browsers.CHROME;
+    private Browsers browser = Browsers.FIREFOX;
     private String url = "https://www.saucedemo.com/";
 
     @BeforeMethod
