@@ -13,10 +13,10 @@ import java.time.Duration;
 public abstract class BaseTest {
 
     // TODO: Externalise config data
-    protected WebDriver driver;
-    private Browsers browser = Browsers.FIREFOX;
-    private String url = "https://www.saucedemo.com/";
 
+    private static Browsers browser = Browsers.FIREFOX;
+    protected static String url = "https://www.saucedemo.com/";
+    protected static WebDriver driver = BrowserFactory.launch(browser);
     @BeforeEach
     public void setup() {
         driver = BrowserFactory.launch(browser);
