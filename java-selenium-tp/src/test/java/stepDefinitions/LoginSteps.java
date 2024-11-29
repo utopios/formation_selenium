@@ -14,6 +14,7 @@ public class LoginSteps extends BaseTest {
     private String password;
     @Given("I am on the login page with valid credentials {string} and {string}")
     public void iOnLoginPage(String username, String password) {
+        setup();
         loginPage = new LoginPage(driver);
         this.username = username;
         this.password = password;
@@ -26,5 +27,6 @@ public class LoginSteps extends BaseTest {
     @Then("I will be redirected to page {string}")
     public void getUrl(String url) {
         assertEquals(driver.getCurrentUrl(), url);
+        tearDown();
     }
 }
