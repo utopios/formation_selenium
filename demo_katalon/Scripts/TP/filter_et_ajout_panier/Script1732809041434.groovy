@@ -45,3 +45,4 @@ titleFirstElementInCart = WebUI.getText(findTestObject('TP/Page_Panier/first_ele
 
 WebUI.verifyMatch(titleFirstElement, titleFirstElementInCart, false)
 
+
